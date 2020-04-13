@@ -1,0 +1,4 @@
+# Run docker build -f src/main/docker/Dockerfile.wildfly -t simple_rest:wildfly .
+FROM jboss/wildfly
+
+ADD target/rest-hello-0.0.1.war /opt/jboss/wildfly/standalone/deployments/
