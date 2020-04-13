@@ -72,4 +72,3 @@ wildfly:
             - perfromance_test
 ...
 ```
-
