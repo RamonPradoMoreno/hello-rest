@@ -13,7 +13,7 @@ The artifact is a simple `.ear` that is automatically published in a *Wildfly* a
 You can try it with:
 
 ```bash
-curl localhost:8080/hello -v
+curl http://localhost:8080/rest-hello-0.0.1/resources/hello -v
 ```
 
 
